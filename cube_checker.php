@@ -1,6 +1,5 @@
 <?php
 /*
-
 To find the volume (centimeters cubed) of a cuboid you use the formula:
 volume = Length * Width * Height
 
@@ -11,8 +10,6 @@ Return false for invalid numbers too (e.g volume or side is less than or equal t
 Note: the sides must be integers
 */
 ?>
-
-
 
 <?php
 	function cubeChecker($volume, $side) {
@@ -36,7 +33,7 @@ Note: the sides must be integers
 
 	  // return $true_false;
 	}
-
+// testing with examples
 	cubeChecker(20, 4);
 	cubeChecker(27, 3);
 	cubeChecker(9, 3);

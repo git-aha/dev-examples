@@ -30,7 +30,6 @@ Note: the sides must be integers
 			echo ' - sides are not equal <br />';
 			return false;
 		}
-
 	  // return $true_false;
 	}
 // testing with examples
@@ -41,4 +40,8 @@ Note: the sides must be integers
 	cubeChecker(12, 0);
 	cubeChecker(512, 8);
 	cubeChecker(512, -4);
+// added locale to test github revisioning
+	cubeChecker(0,0);
+	cubeChecker();
+	cubeChecker(8, 2);	
 ?>

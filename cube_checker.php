@@ -40,7 +40,7 @@ Note: the sides must be integers
 	cubeChecker(12, 0);
 	cubeChecker(512, 8);
 	cubeChecker(512, -4);
-// added locale to test github revisioning
+// added locally to test github revisioning
 	cubeChecker(0,0);
 	cubeChecker();
 	cubeChecker(8, 2);	

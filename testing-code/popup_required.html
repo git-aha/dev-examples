@@ -1,0 +1,39 @@
+
+
+<html>
+<meta charset = utf8>
+
+<p>
+    Popup-Box required
+</p>
+
+<!--
+<script type = "text/javascript">
+    var a = window.confirm("Bitte bestaetigen");
+    if (a === true) {
+        alert("Danke fuer die Bestaetigung! \n a = " + a);
+    }
+    if (a === false) {
+        alert("a = " + a + " - Bestaetigung fehlt!")
+    }
+</script>
+-->
+
+<script type = "text/javascript">
+    var a = false;
+    var a = window.confirm("Bitte bestaetigen");
+
+
+
+    do {
+        window.confirm("Bitte bestaetigen.");
+
+
+    while ( a === false ) {
+        window.confirm("Box taucht immer wieder auf.")
+    }
+        document.write("Danke." + \n + "Box wurde bestätigt.");
+
+</script>
+
+</html>

@@ -1,0 +1,56 @@
+git workflow
+(https://try.github.io/)
+
+
+- create directory - 
+
+- git init
+
+- git status
+
+- git add [filename] = staging area
+
+- git commit -m "[short description of changes]"
+
+- git add '*.txt'  --> alle txt-Dateien, auch in Unterverzeichnissen
+
+- git log (git log --summary)
+
+- git remote add origin [https://github.com/git-aha]
+
+- git push -u origin master
+
+- git pull origin master (check for changes on our GitHub repository)
+
+- git diff HEAD
+
+- git diff --staged
+
+- git add [new file]
+
+- git reset [filename] (unstaging files)
+
+- git checkout -- [new file] (going back to stage of last commit)
+
+- git branch [new_branch] (creating new branch)
+
+- git checkout [new_branch] (switching branches)
+
+- git rm '*.txt' (removing txt files)
+
+- git commit -m "Remove all the ... files"
+
+- git checkout master
+
+- git merge [new_branch]
+
+- git branch -d [new_branch] (deleting a branch)
+
+- git push (pushing to remote directory)
+
+
+
+
+
+
+
